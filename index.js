@@ -8,7 +8,6 @@ const writeFileAsync = util.promisify(fs.writeFile)
 const questions = [
   "What is the Title of your README file?",
   "Enter your Description:",
-  "Enter information for Table of Contents: ",
   "Enter Installation instruction: ",
   "Enter Usage instruction: ",
   "Enter information for Credits section:",
@@ -50,54 +49,49 @@ function getUserInfo() {
       },
       {
         type: "input",
-        name: "table",
+        name: "installation",
         message: questions[2]
       },
       {
         type: "input",
-        name: "installation",
+        name: "usage",
         message: questions[3]
       },
       {
         type: "input",
-        name: "usage",
+        name: "credits",
         message: questions[4]
       },
       {
         type: "input",
-        name: "credits",
+        name: "contributing",
         message: questions[5]
       },
       {
         type: "input",
-        name: "contributing",
+        name: "test",
         message: questions[6]
       },
       {
         type: "input",
-        name: "test",
-        message: questions[7]
-      },
-      {
-        type: "input",
         name: "questions",
-        message: questions[8]
+        message: questions[7]
       },
       {
         type: "checkbox",
         name: "license",
-        message: questions[9],
+        message: questions[8],
         choices: licenseChoices
       },
       {
         type: "input",
         name: "github",
-        message: questions[10]
+        message: questions[9]
       },
       {
         type: "input",
         name: "email",
-        message: questions[11]
+        message: questions[10]
       }
     ])
 }
