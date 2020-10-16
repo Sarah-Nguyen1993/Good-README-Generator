@@ -12,7 +12,7 @@ ${data.description}
 ### [Contributing](#Contributing)
 ### [Test](#Test)
 ### [Questions](#Questions)
-## Installtion
+## Installation
 ${data.installation}
 ## Usage
 ${data.usage}
