@@ -17,6 +17,7 @@ ${data.contributing}
 ${data.test}
 ## Questions
 ${data.questions}
+My GitHub profile is here: https://github.com/${github}
 ## License
 ${data.license}          
 `;
