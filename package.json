@@ -9,6 +9,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^6.3.1"
-  }
+    "inquirer": "^6.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarah-Nguyen1993/Good-README-Generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sarah-Nguyen1993/Good-README-Generator/issues"
+  },
+  "homepage": "https://github.com/Sarah-Nguyen1993/Good-README-Generator#readme"
 }
