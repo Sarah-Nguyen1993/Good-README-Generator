@@ -16,6 +16,7 @@ const questions = [
   "Enter information for Tests:",
   "Enter information for Question section:",
   "Enter License:",
+  "What is your GitHub username?"
 ];
 
 const licenseChoices =
@@ -86,6 +87,11 @@ function getUserInfo() {
         name: "license",
         message: questions[9],
         choices: licenseChoices
+      },
+      {
+        type: "input",
+        name: "github",
+        message: questions[10]
       },
     ])
 }
